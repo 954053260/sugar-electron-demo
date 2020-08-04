@@ -1,0 +1,29 @@
+{
+  "presets": [
+    "@babel/react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-modules-commonjs",
+    [
+      "react-css-modules",
+      {
+        "filetypes": {
+          ".less": {
+            "syntax": "postcss-less"
+          }
+        },
+        "webpackHotModuleReloading": true,
+        "autoResolveMultipleImports": true,
+        "generateScopedName": "[name]__[local]__[hash:base64:5]"
+      }
+    ],
+    [
+      "module-resolver"
+    ]
+  ]
+}

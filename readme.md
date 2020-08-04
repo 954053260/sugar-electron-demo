@@ -1,8 +1,4 @@
-## sugar-electron脚手架
-
-## 安装
-
-npm i sugar-electron-cli
+## sugar-electron脚手架模板
 
 ### 文件目录
 ```

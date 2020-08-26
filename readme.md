@@ -1,5 +1,11 @@
 ## sugar-electron脚手架模板
 
+### 启动
+```
+npm run webpack:dev
+npm run dev
+```
+
 ### 文件目录
 ```
 sugar-electron-cli
